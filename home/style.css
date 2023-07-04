@@ -17,7 +17,7 @@ box-sizing: border-box;
 }
 
 #name{
-color: red;
+color: white;
 text-decoration: underline;
 padding-top: 12px;
 font-size: x-large;
@@ -25,19 +25,18 @@ font-style: italic;
 }
 
 .container-1{
-    width: 100%;
-    height: 700px;
-    background-color: green;
+    background-color: black
 }
 
-img{
-    width: 300px;
-    float: right;
-    padding-right: 80px;
+.photo-of-me{
+background-image: url(../assets/img/ragazzo.jpg);
+width: 400px;
+height: 400px;
+background-size: cover;
+background-position: center;
 }
 
-.titolo-principale{
-    text-align: left;
-    padding: 100px;
+.introduzione{
+    text-decoration: underline;
+    color: white;
 }
-

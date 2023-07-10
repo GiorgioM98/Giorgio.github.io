@@ -9,3 +9,73 @@ PROPRIETA': valore;
     box-sizing: border-box;
     }
     
+    .navbar{
+        background-color: #1A1A1A;
+        height: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    
+    .link{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    #name{
+    color: #DCFE50;
+    padding-top: 12px;
+    font-size: x-large;
+    font-style: italic;
+    }
+    
+    
+    .first-page{
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 2px;
+        height: 700px;
+    }
+    
+    
+    .color-black{
+        background-color: #1A1A1A;
+        height: 100%;
+        width: 50%;
+        float: left;
+        text-align: right;
+        padding-top: 20%;
+        padding-right: 20px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+        text-decoration: underline;
+        color: #DCFE50;
+    }
+    
+    
+    .color-white{
+        background-color: white;
+        height: 100%;
+        width: 50%;
+        float: left;
+        padding-top: 20%;
+        padding-left: 20px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+        font-size: 40px;
+        text-decoration: underline;
+        border: 5px solid #1A1A1A;
+        color: #1A1A1A;
+    }
+    
+    
+    .container{
+        margin-right: 150px;
+        margin-left: 150px;
+        margin-top: 2px;
+        height: 700px;;
+        background-color:#1A1A1A;
+    }
+    

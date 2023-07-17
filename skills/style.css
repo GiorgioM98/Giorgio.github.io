@@ -31,71 +31,67 @@ PROPRIETA': valore;
     }
     
     
-    .first-page{
-        margin-right: 100px;
-        margin-left: 100px;
-        margin-top: 2px;
-        height: 700px;
-    }
+.first-page{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 2px;
+    height: 700px;
+}
     
     
-    .color-black{
-        background-color: #1A1A1A;
-        height: 100%;
-        width: 50%;
-        float: left;
-        text-align: right;
-        padding-top: 20%;
-        padding-right: 60px;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-style: oblique;
-        font-size: 40px;
-        text-decoration: underline;
-        color: #DCFE50;
-    }
+.color-black{
+     background-color: #1A1A1A;
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 20%;
+    padding-right: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+    text-decoration: underline;
+    color: #DCFE50;
+}
     
     
-    .color-white{
-        background-color: white;
-        height: 100%;
-        width: 50%;
-        float: left;
-        padding-top: 20%;
-        padding-left: 40px;
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-style: oblique;
-        font-size: 40px;
-        text-decoration: underline;
-        border: 5px solid #1A1A1A;
-        color: #1A1A1A;
-    }
+.color-white{
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 20%;
+    padding-left: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+    text-decoration: underline;
+    border: 5px solid #1A1A1A;
+    color: #1A1A1A;
+}
     
     
-    .container{
-        margin-right: 150px;
-        margin-left: 150px;
-        margin-top: 2px;
-        height: 700px;;
-        background-color:#1A1A1A;
-        }
+.container{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 2px;
+    height: 700px;;
+    background-color:#1A1A1A;
+}
 
 
 .paragrafo-1{
     color: white;
-    padding-top: 20%;
+    padding-top: 10%;
 }   
 
 
 .title{
     text-align: center;
+    color: #DCFE50;
 }
 
 
 .list{
     padding-left: 45%;  
-}
-
-
-.title{
-    color: #DCFE50;
 }

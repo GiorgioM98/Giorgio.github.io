@@ -85,18 +85,19 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
+    margin-left: 3px;
     display: inline-block;
 }
 
 .img2{
     width: 300px;
     height: 300px;
-    background-image: url(../assets/img/logo-airbnb.png);
+    background-image: url(../assets/img/logo-airbnb-nuovo.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     display: inline-block;
 }
 
@@ -107,7 +108,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     display: inline-block;
 }
 
@@ -118,7 +119,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     display: inline-block;
 }
 
@@ -129,7 +130,8 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
+    margin-left: 3px;
     display: inline-block;
 }
 
@@ -140,7 +142,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     display: inline-block;
 }
 
@@ -151,7 +153,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     display: inline-block;
 }
 
@@ -162,40 +164,134 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     display: inline-block;
 }
 
 
-.text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
-
-.position{
-    position: relative;
-}
-
-
-.text{
+.text1{
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
-    color: rgb(0, 13, 255);
+    color: black;
     position: absolute;
-    top: 10px;
-    
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.text2{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.text3{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.text4{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.text5{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.text6{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.text7{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+.text8{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 
 .layover{
-    background-color: rgba(255, 255, 255, 0.4);
     width: 100%;
     height: 100%;
-  }
+}
   
 
 

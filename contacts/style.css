@@ -79,6 +79,15 @@ PROPRIETA': valore;
     float: right;
 }
 
+img{
+    width: 30px;
+}
+
+#img-whastapp{
+    background-color: white;
+    width: 30px;
+}
+
 
 .text-2{
     padding-top: 20%;
@@ -107,5 +116,41 @@ PROPRIETA': valore;
     background-image: url(../assets/img/torino.jpeg);
     background-size: cover;
 }
-    
-    
+
+
+.form-page{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 2px;
+    height: 1000px;
+    background-color: #1A1A1A;
+}
+
+.font-text{
+    color: white;
+    text-align: center; 
+}
+
+.text-h4{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.e-row{
+    width: 300px;
+}
+
+
+#submit{
+    padding: 10px;
+    font-size: large;
+}
+
+footer{
+    text-align: center;
+    border: 5px solid black;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+

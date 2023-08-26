@@ -28,28 +28,28 @@
 
 
 #chisinau{
-  background-image: url(Immagini/chisinau.jpg);
+  background-image: url(../../../assets/img/chisinau.jpg);
 }
 #torino{
-  background-image: url(Immagini/torino.webp);
+  background-image: url(../../../assets/img/torino.webp);
 }
 #roma{
-  background-image: url(Immagini/roma.jpg);
+  background-image: url(../../../assets/img/roma.jpg);
 }
 #berlino{
-  background-image: url(Immagini/Berlino.jpg);
+  background-image: url(../../../assets/img/Berlino.jpg);
 }
 #venezia{
-  background-image: url(Immagini/venezia.jpeg);
+  background-image: url(../../../assets/img/venezia.jpeg);
 }
 #parigi{
-  background-image: url(Immagini/parigi.jpg);
+  background-image: url(../../../assets/img/parigi.jpg);
 }
 #new-york{
-  background-image: url(Immagini/newyork.webp);
+  background-image: url(../../../assets/img/newyork.webp);
 }
 #londra{
-  background-image: url(Immagini/londra.jpg);
+  background-image: url(../../../assets/img/londra.jpg);
 }
 
 

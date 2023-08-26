@@ -71,8 +71,8 @@ PROPRIETA': valore;
 }
 
 .container-1{
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 2px;
     height: 700px;;
     background-color:#1A1A1A;
@@ -85,9 +85,10 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
-    margin-left: 3px;
+    border: 3px solid white; 
+    margin-left: 50px;
     display: inline-block;
+    margin-top: 45px;
 }
 
 .img2{
@@ -97,7 +98,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
+    border: 3px solid white;
     display: inline-block;
 }
 
@@ -108,7 +109,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
+    border: 3px solid white;
     display: inline-block;
 }
 
@@ -119,7 +120,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
+    border: 3px solid white;
     display: inline-block;
 }
 
@@ -130,8 +131,8 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
-    margin-left: 3px;
+    border: 3px solid white;
+    margin-left: 50px;
     display: inline-block;
 }
 
@@ -142,7 +143,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
+    border: 3px solid white;
     display: inline-block;
 }
 
@@ -153,7 +154,7 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
+    border: 3px solid white;
     display: inline-block;
 }
 
@@ -164,127 +165,127 @@ PROPRIETA': valore;
     background-position: center;
     background-size: cover;
     position: relative;
-    /* border: 3px solid white; */
+    border: 3px solid white; 
     display: inline-block;
 }
 
 
 .text1{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color: hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .text2{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color:  hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 .text3{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color:  hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 .text4{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color:  hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 .text5{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color:  hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 .text6{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color:  hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 .text7{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color:  hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
 .text8{
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
     position: absolute;
     bottom: 10px;
     left: 15px;
     border: 1px solid black;
-    background-color: white;
-    padding-left: 2px;
-    padding-right: 2px;
+    border-radius: 5px;
+    background-color:  hsla(170, 100%, 50%, 0.942);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -292,6 +293,14 @@ PROPRIETA': valore;
     width: 100%;
     height: 100%;
 }
+
+footer{
+    text-align: center;
+    border: 5px solid black;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
   
 
 

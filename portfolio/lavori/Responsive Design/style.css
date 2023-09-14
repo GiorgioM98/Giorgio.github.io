@@ -35,6 +35,7 @@
 .header{
   background-color: rgb(6, 35, 233);
 }
+
 .sign-up{
   background-color: rgb(191, 196, 242)
 }
@@ -56,7 +57,7 @@
 }
 
 .photo img{
-  sizing: "(min-width: 960px) 960px, 100vw";
+  size: "(min-width: 960px) 960px, 100vw";
   width: 100%;
   display: block;
 }
@@ -69,9 +70,11 @@
 
 /* Mobile styles */
 @media only screen and (max-width: 400px){
-  body{
-    background-color: red;
+  .page{
+    width: 400px;
+    margin: auto;
   }
+
 }
 
 /* Tablet styles */

@@ -9,6 +9,7 @@ PROPRIETA': valore;
     box-sizing: border-box;
 }
 
+
 .navbar{
     background-color: #1A1A1A;
     height: 70px;
@@ -22,13 +23,14 @@ PROPRIETA': valore;
     text-decoration: none;
 }
 
+
 #name{
     color: #DCFE50;
     padding-top: 12px;
     font-size: x-large;
     font-style: italic;
     text-decoration: none;
-    }
+}
     
     
 .first-page{
@@ -40,7 +42,7 @@ PROPRIETA': valore;
     
     
 .color-black{
-     background-color: #1A1A1A;
+    background-color: #1A1A1A;
     height: 100%;
     width: 50%;
     float: left;
@@ -70,103 +72,61 @@ PROPRIETA': valore;
     color: #1A1A1A;
 }
 
-.container-1{
+
+.contenitore{
     margin-right: 100px;
     margin-left: 100px;
     margin-top: 2px;
-    height: 700px;;
+    height: auto;
     background-color:#1A1A1A;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.img1{
+
+.img{
     width: 300px;
     height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 3px solid black; 
+    display: inline-block;
+}
+
+
+.tecnology{
     background-image: url(../assets/img/tecnology.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white; 
-    margin-left: 50px;
-    display: inline-block;
-    margin-top: 45px;
 }
 
-.img2{
-    width: 300px;
-    height: 300px;
+.airbnb{
     background-image: url(../assets/img/logo-airbnb-nuovo.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white;
-    display: inline-block;
 }
 
-.img3{
-    width: 300px;
-    height: 300px;
+.album-immagini{
     background-image: url(../assets/img/logo-album-immagini.webp);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white;
-    display: inline-block;
 }
 
-.img4{
-    width: 300px;
-    height: 300px;
+.responsive-design{
     background-image: url(../assets/img/logo-responsive-design.webp);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white;
-    display: inline-block;
 }
 
-.img5{
-    width: 300px;
-    height: 300px;
+.bootstrap{
     background-image: url(../assets/img/logo-bootstrap.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white;
-    margin-left: 50px;
-    display: inline-block;
 }
 
-.img6{
-    width: 300px;
-    height: 300px;
+.e-commerce{
     background-image: url(../assets/img/logo-e-commerce.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white;
-    display: inline-block;
 }
 
-.img7{
-    width: 300px;
-    height: 300px;
+.youtube{
     background-image: url(../assets/img/logo-youtube.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white;
-    display: inline-block;
-}
+    }
 
-.img8{
-    width: 300px;
-    height: 300px;
-    background-image: url(../assets/img/logo-gmail.svg.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    border: 3px solid white; 
-    display: inline-block;
+
+.gmail{
+    background-image: url(../assets/img/logo-gmail.svg.png);    
 }
 
 
@@ -196,5 +156,105 @@ footer h6{
 }
 
 
+
+
+/* phones */
+@media screen and (max-width: 540px) {
+
+    .navbar{
+        flex-direction: column;
+        font-size: 80%;
+    }
+
+    #name{
+        padding-top: 6px;
+        font-size: x-large;
+    }
+
+    .first-page{
+        height: 400px;
+        margin: 0;
+    }
+
+    .color-black{
+        padding-right: 30px;
+        font-size: 20px;
+    }
+         
+    .color-white{
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .contenitore{
+        margin:0;
+        height: auto;
+    }
+
+    .img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-of-work{
+        font-size: 12px;
+        top: 50%;
+        left: 50%;
+    }
+
+    footer h6{
+        font-size: 5px;
+    }
+}
+
+
+
+
+/* tablets */
+@media screen  and (min-width: 540px) and (max-width: 720px){
+
+    .navbar{
+        flex-direction: column;
+        font-size: 90%;
+    }
+
+    #name{
+        padding-top: 6px;
+        font-size: x-large;
+    }
+
+    .first-page{
+        height: 500px;
+        margin: 0;
+    }
+
+    .color-black{
+        padding-right: 30px;
+        font-size: 30px;
+    }
+        
+    .color-white{
+        padding-left: 20px;
+        font-size: 30px;
+    }
+
+    .contenitore{
+        margin:0;
+        height: auto;
+    }
+
+    .img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .text-of-work{
+        font-size: 20px;
+    }
+
+    footer h6{
+        font-size: 10px;
+    }
+}
 
     

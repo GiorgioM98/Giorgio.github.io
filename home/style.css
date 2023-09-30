@@ -24,10 +24,10 @@ box-sizing: border-box;
 
 
 #name{
-color: #DCFE50;
-padding-top: 12px;
-font-size: x-large;
-font-style: italic;
+    color: #DCFE50;
+    padding-top: 12px;
+    font-size: x-large;
+    font-style: italic;
 }
 
 
@@ -71,11 +71,11 @@ font-style: italic;
 }
 
 
-.container{
-    margin-right: 150px;
-    margin-left: 150px;
+.contenitore{
+    height: 700px;
+    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 2px;
-    height: 700px;;
     background-color:#1A1A1A;
 }
 
@@ -101,13 +101,7 @@ font-style: italic;
     width: 50%;
     color: aliceblue;
     padding-left: 100px;
-    padding-top: 100px;
-}
-
-
-.spazio{
-    width: 100%;
-    height: 400px;;
+    padding-top: 40px;
 }
 
 
@@ -116,21 +110,140 @@ font-style: italic;
 }
 
 
-.n2{
-    position: relative;
-}
-
-
-.paragrafo-2{
-    color: #DCFE50;
-    background-color: #232323;
-    position: absolute;
-    top: 50%;
-    padding-left: 200px;
-    padding-right: 200px;
-}   
-
 footer h6{
     text-align: center;
     font-size: 10px;
 }
+
+
+
+ /* phones */
+@media screen and (max-width: 540px) {
+
+    .navbar{
+        flex-direction: column;
+        font-size: 80%;
+    }
+    
+    #name{
+      font-size: 80%;
+    }
+    
+    .first-page{
+        height: 400px;
+        margin: 0;
+    }
+   
+    .color-black{
+        padding-top: 20%;
+        padding-right: 10px;
+        font-size: 20px;
+    }
+
+    .color-white{
+        padding-top: 20%;
+        padding-left: 10px;
+        font-size: 20px;
+    
+    }
+    
+    .contenitore{
+        min-height: 50px;
+        margin: 0;
+    }
+    
+    .nuovo{
+        width: 50%;
+        height: 300px;
+        float: right;
+    }
+    
+    .img-of-me{
+        width: 70%;
+        height: 80%;
+        position: relative;
+        left: 30px;
+    }
+    
+    .introduzione{
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .title{
+        font-size: 20px;
+    }
+
+    .paragrafo-1{
+        font-size: 10px;
+    }
+    
+    footer h6{
+        font-size: 5px;
+     }
+    }
+
+
+
+  
+  /* tablets */
+  @media screen and (min-width: 540px) and (max-width: 720px) {
+
+
+        .navbar{
+            font-size: 80%;
+    }
+    
+    #name{
+        font-size: 80%;
+      }
+      
+    .first-page{
+        height: 500px;
+        margin: 0;
+    }
+   
+    .contenitore{
+        min-height: 50;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .color-black{
+        padding-top: 20%;
+        padding-right: 15px;
+        font-size: 30px;
+    }
+
+    .color-white{
+        padding-top: 20%;
+        padding-left: 15px;
+        font-size: 35px;
+    }
+    
+    .nuovo{
+        width: 50%;
+        height: 600px;
+        float: right;
+    }
+    
+    .img-of-me{
+        width: 70%;
+        height: 80%;
+        position: relative;
+        left: 30px;
+    }
+    
+    .introduzione{
+        float: left;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    footer h6{
+        text-align: center;
+        font-size: 10px;
+     }
+    }
+

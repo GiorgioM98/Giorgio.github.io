@@ -9,6 +9,7 @@ PROPRIETA': valore;
     box-sizing: border-box;
     }
     
+
 .navbar{
     background-color: #1A1A1A;
     height: 70px;
@@ -72,11 +73,11 @@ PROPRIETA': valore;
 }
     
     
-.container{
-    margin-right: 150px;
-    margin-left: 150px;
+.contenitore{
+    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 2px;
-    height: 700px;;
+    height: 700px;
     background-color:#1A1A1A;
 }
 
@@ -92,14 +93,109 @@ PROPRIETA': valore;
     padding-top: 2%;
 } 
 
+
 p{
     text-align: center;
     padding: 30px;
 }
 
+
 footer h6{
     text-align: center;
     font-size: 10px;
+}
+
+
+
+
+/* phones */
+@media screen and (max-width: 540px) {
+
+    .navbar{
+        flex-direction: column;
+        font-size: 80%;
+    }
+
+    #name{
+        padding-top: 6px;
+        font-size: x-large;
+    }
+
+    .first-page{
+        height: 400px;
+        margin: 0;
+    }
+
+    .color-black{
+        padding-right: 30px;
+        font-size: 20px;
+    }
+        
+        
+    .color-white{
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    .contenitore{
+        margin:0;
+        height: auto;
+    }
+
+     p{
+        text-align: center;
+        padding: 15px;
+        font-size: 80%;
+    }
+
+    footer h6{
+        font-size: 5px;
+    }  
+}
+
+
+
+/* tablets */
+@media screen  and (min-width: 540px) and (max-width: 720px){
+
+    .navbar{
+        flex-direction: column;
+        font-size: 90%;
+    }
+
+    #name{
+        padding-top: 6px;
+        font-size: x-large;
+    }
+
+    .first-page{
+        height: 500px;
+        margin: 0;
+    }
+
+    .color-black{
+        padding-right: 30px;
+        font-size: 30px;
+    }
+         
+    .color-white{
+        padding-left: 20px;
+        font-size: 30px;
+    }
+
+    .contenitore{
+        margin:0;
+        height: auto;
+    }
+
+     p{
+        padding: 15px;
+        font-size: 90%;
+    }
+
+    footer h6{
+        font-size: 10px;
+    } 
 }
 
 

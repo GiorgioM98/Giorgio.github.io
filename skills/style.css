@@ -9,6 +9,7 @@ PROPRIETA': valore;
     box-sizing: border-box;
 }
 
+
 .navbar{
     background-color: #1A1A1A;
     height: 70px;
@@ -21,6 +22,7 @@ PROPRIETA': valore;
     color: white;
     text-decoration: none;
 }
+
 
 #name{
     color: #DCFE50;
@@ -40,7 +42,7 @@ PROPRIETA': valore;
     
     
 .color-black{
-     background-color: #1A1A1A;
+    background-color: #1A1A1A;
     height: 100%;
     width: 50%;
     float: left;
@@ -71,17 +73,17 @@ PROPRIETA': valore;
 }
     
     
-.container{
-    margin-right: 150px;
-    margin-left: 150px;
+.contenitore{
+    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 2px;
-    height: 700px;;
+    height: 900px;;
     background-color:#1A1A1A;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
 }
+
 
 .text{
     color: white;
@@ -89,10 +91,12 @@ PROPRIETA': valore;
     border-bottom: 1px solid white;
 }
 
+
 img{
     width: 150px;
     height: 150px;
 }
+
 
 .riquadro{
     width: 33%;
@@ -102,10 +106,118 @@ img{
     max-width: 200px;
 }
 
+
 footer h6{
     text-align: center;
     font-size: 10px;
 }
 
+
+
+
+/* phones */
+@media screen and (max-width: 540px){
+    
+.navbar{
+    flex-direction: column;
+    font-size: 80%;
+}
+
+#name{
+    padding-top: 6px;
+    font-size: x-large;
+}
+    
+.first-page{
+    margin: 0;
+    height: 400px;
+}
+    
+.color-black{
+    padding-right: 30px;
+    font-size: 20px;
+}
+     
+.color-white{
+    padding-left: 20px;
+    font-size: 20px;
+}
+       
+.contenitore{
+    margin:0;
+    height: 700px;
+}
+
+.text{
+    margin-top: 7px;
+    font-size: 10px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.para{
+    max-width: 100px;
+}
+
+footer h6{
+    font-size: 50%;
+ }
+}
+
+
+ /* tablets */
+@media screen and (min-width: 540px) and (max-width: 720px){
+    
+    .navbar{
+        flex-direction: column;
+        font-size: 90%;
+    }
+    
+    #name{
+        padding-top: 6px;
+        font-size: x-large;
+    }
+         
+    .first-page{
+        margin: 0;
+        height: 500px;
+    }
+          
+    .color-black{
+        padding-right: 30px;
+        font-size: 30px;
+    }
+           
+    .color-white{
+        padding-left: 20px;
+        font-size: 30px;
+    }
+          
+    .contenitore{
+        margin:0;
+        height: 700px;
+    }
+    
+    .text{
+        margin-top: 7px;
+        font-size: 10px;
+    }
+    
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .para{
+        max-width: 150px;
+    }
+    
+    footer h6{
+        font-size: 70%;
+    }
+}
 
 

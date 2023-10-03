@@ -88,10 +88,10 @@ box-sizing: border-box;
 
 
 .img-of-me{
-    width: 70%;
-    height: 90%;
+    width: 60%;
+    height: 80%;
     position: relative;
-    left: 30px;
+    left: 50px;
     margin-top: 10px;
 }
 
